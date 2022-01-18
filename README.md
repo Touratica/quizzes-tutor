@@ -1,6 +1,6 @@
-<h1 align="center">Quizzes Tutor</h1>
+<h1 style="text-align: center">Quizzes Tutor</h1>
 
-<p align="center">
+<p style="text-align: center">
   <a href="https://github.com/socialsoftware/quizzes-tutor/actions">
     <img src="https://img.shields.io/github/workflow/status/socialsoftware/quizzes-tutor/build" alt="Build">
   </a>
@@ -12,11 +12,11 @@
     <img src="https://sslbadge.org/?domain=quizzes-tutor.tecnico.ulisboa.pt" alt="SSL configuration">
   </a-->
   <a href="https://github.com/socialsoftware/quizzes-tutor/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/socialsoftware/quizzes-tutor"alt="License">
+    <img src="https://img.shields.io/github/license/socialsoftware/quizzes-tutor" alt="License">
   </a>
 </p>
 
-<p align="center">
+<p style="text-align: center">
   <!-- Snyk badge takes too long to load -->
   <!-- a href="https://snyk.io/test/github/socialsoftware/quizzes-tutor?targetFile=backend/pom.xml">
     <img src="https://snyk.io/test/github/socialsoftware/quizzes-tutor/badge.svg?targetFile=backend/pom.xml" alt="Backend vulnerabilities">
@@ -39,40 +39,38 @@
   </a>
 </p>
 
-<div align="center">
-  <img align="center" src="https://quizzes-tutor.tecnico.ulisboa.pt/logo_optimized.png" alt="Quizzes Tutor" width="200">
+<div style="text-align: center">
+  <img src="https://quizzes-tutor.tecnico.ulisboa.pt/logo_optimized.png" alt="Quizzes Tutor" width="200">
 </div>
 
-<p align="left"><i><b>Vue.js</b> web application and <b>Spring-boot</b> API</i></p>
-<p align="center"><i>with <b>multiple choice questions</b> for students</i></p>
-<p align="right"><i>and <b>quiz management</b> for teachers</i></p>
+<p style="text-align: center"><i><b>Vue.js</b> web application and <b>Spring-boot</b> API</i></p>
+<p style="text-align: center"><i>with <b>multiple choice questions</b> for students</i></p>
+<p style="text-align: center"><i>and <b>quiz management</b> for teachers</i></p>
 
-<p align="center">
+<p style="text-align: center">
   <a href="#about">About</a> •
   <a href="#technologies">Technologies</a> •
   <a href="#installation">Installation</a> •
-  <a href="#patreons">Patreons</a> •
+  <a href="#patrons">Patrons</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p>
 
 # About
 
-<img align="right" src="./frontend/public/Screenshot.png" height="250">
+<img style="float: right; height: 250px" src="./frontend/public/Screenshot.png" alt="Screenshot of Quizzes Tutor interface">
+
+**Quizzes Tutor** allows teachers to create and reuse, multiple-choice questions with images and topics which can be inserted in assessments and quizzes. Its development started as an effort of project IMPRESS to share and reuse questions and quizzes of software engineering.
 
 <br/>
 
-**Quizzes Tutor** allows teachers to create and reuse, multiple-choice questions with images and topics which can be inserted in assessments and quizzes. Its development started as an effort of project IMPRESS to share and reuse questions and quizzes of software engineering. 
-
-<br/>
- 
 It is currently integrated with IST authentication such that it can be used for any course.
 
 <br/>
 
-Students can then answer those questions in sugested quizzes or generated quizzes (pseudo-random) providing them with a useful **self-assessment tool** to improve their learning.
+Students can then answer those questions in suggested quizzes or generated quizzes (pseudo-random) providing them with a useful **self-assessment tool** to improve their learning.
 
- <br/>
+<br/>
 
 # Technologies
 
@@ -107,7 +105,7 @@ CREATE USER your-username WITH SUPERUSER LOGIN PASSWORD 'yourpassword';
 \q
 exit
 ```
-* **Go to [API Service Agreement](https://fenix.tecnico.ulisboa.pt/personal/external-applications/api-service-agreement) and then to [Applications](https://fenix.tecnico.ulisboa.pt/personal/external-applications/#/applications)  and create an application that redirects to http://localhost:8081/login and accessess curricular and information**
+* **Go to [API Service Agreement](https://fenix.tecnico.ulisboa.pt/personal/external-applications/api-service-agreement) and then to [Applications](https://fenix.tecnico.ulisboa.pt/personal/external-applications/#/applications)  and create an application that redirects to http://localhost:8081/login and accesses curricular and information**
 * **Rename `backend/src/main/resources/application-dev.properties.example` to `application-dev.properties` and fill its fields**
 * **Run server**
 ```
@@ -124,25 +122,25 @@ npm start
 ```
 * **Access http://localhost:8081**
 
-# Patreons
+# Patrons
 
-A special thanks to our patreons for supporting this project:
+A special thanks to our patrons for supporting this project:
 
 <table>
   <tr>
-    <td width="30%">
+    <td style="width: 1%">
       <a href="https://tecnico.ulisboa.pt/pt/" target="_blank">
-        <img width="100%" src="https://math.tecnico.ulisboa.pt/img/Tecnico_logo.svg" alt="Técnico Logo"/>
+        <img src="https://math.tecnico.ulisboa.pt/img/Tecnico_logo.svg" alt="Técnico Logo"/>
       </a>
     </td>
-    <td width="30%">
+    <td style="width: 1%">
       <a href="https://impress-project.eu/" target="_blank">
-        <img width="100%" src="https://www.inesc-id.pt/wp-content/uploads/2018/01/impress_logo_703x316.png" alt="IMPRESS Logo"/>
+        <img src="https://www.inesc-id.pt/wp-content/uploads/2018/01/impress_logo_703x316.png" alt="IMPRESS Logo"/>
       </a>
     </td>
-    <td width="30%">
+    <td style="width: 1%">
       <a href="https://www.inesc-id.pt" target="_blank">
-      <img width="100%" src="https://www.inesc-id.pt/wp-content/uploads/2019/06/INESC-ID-logo_01.png" alt="INESC Logo"/>
+      <img src="https://www.inesc-id.pt/wp-content/uploads/2019/06/INESC-ID-logo_01.png" alt="INESC Logo"/>
     </a>
   </td>
   </tr>
